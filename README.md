@@ -1,5 +1,5 @@
-Nama:M.Gilan Algina
-Nim :2406101
+Nama :M.Gilan Algina
+Nim  :2406101
 Kelas: C
 Kakas:drawio
 
