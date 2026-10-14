@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="wf8oPFXGNrzwUodndrYw" name="Page-1">
+        <mxGraphModel dx="1019" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="mhs" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="60" width="30" x="65" y="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="dw" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dosen wali" vertex="1">
+                    <mxGeometry height="60" width="30" x="885" y="415" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ajukan KRS&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="76" width="220" x="230" y="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validasi KRS" vertex="1">
+                    <mxGeometry height="76" width="220" x="550" y="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Unduh bukti pengajuan KRS&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="76" width="220" x="230" y="292" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Proses keputusan KRS" vertex="1">
+                    <mxGeometry height="76" width="220" x="490" y="392" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1" edge="1" parent="1" source="mhs" style="endArrow=none;html=1;rounded=0;" target="uc01">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2" edge="1" parent="1" source="mhs" style="endArrow=none;html=1;rounded=0;" target="uc03">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="a3" edge="1" parent="1" source="dw" style="endArrow=none;html=1;rounded=0;" target="uc04">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc" edge="1" parent="1" source="uc01" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;labelBackgroundColor=#ffffff;" target="uc02" value="«include»">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext" edge="1" parent="1" source="uc03" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;labelBackgroundColor=#ffffff;" target="uc01" value="«extend»">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="uc03">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="493.67647058823513" y="292" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="i824y12BD8qnEXAt2agv-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; text-align: left;&quot;&gt;&amp;nbsp;validasi berhasil, pengajuan tersimpan, dan mahasiswa memilih unduh bukti pada EP-01.&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="76" width="220" x="520" y="240" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
