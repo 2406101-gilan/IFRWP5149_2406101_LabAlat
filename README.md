@@ -3,4 +3,4 @@ Nim  :2406101
 Kelas: C
 Kakas:drawio
 
-pertemuan 4 Usecase Diagram
+pertemuan 5 SKENARIO USE CASE

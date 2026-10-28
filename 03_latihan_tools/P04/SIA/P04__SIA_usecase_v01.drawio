@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="SIA P04 Kumulatif" id="0">
-        <mxGraphModel dx="1085" dy="2177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+        <mxGraphModel dx="2937" dy="2120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -121,11 +121,14 @@
                 <mxCell id="e19" edge="1" parent="1" source="co02" style="html=1;dashed=1;endArrow=block;endFill=0;endSize=12;fillColor=none;strokeColor=default;" target="uc09" value="«realize»">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="V-eRDT9DyPfqFlMm6jpl-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Diagram Heading" vertex="1">
-                    <mxGeometry height="1079" width="800" x="160" y="-149" as="geometry"/>
+                <mxCell id="V-eRDT9DyPfqFlMm6jpl-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;innerLoopWaypoints=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="380.5" as="sourcePoint"/>
+                        <mxPoint x="960" y="400.5" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="V-eRDT9DyPfqFlMm6jpl-2" edge="1" parent="1" source="V-eRDT9DyPfqFlMm6jpl-1" style="edgeStyle=orthogonalEdgeStyle;html=1;innerLoopWaypoints=1;" target="V-eRDT9DyPfqFlMm6jpl-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="36u7w_XaqOtqNIAb81gI-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Diagram Heading" vertex="1">
+                    <mxGeometry height="940" width="770" x="200" y="-70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
