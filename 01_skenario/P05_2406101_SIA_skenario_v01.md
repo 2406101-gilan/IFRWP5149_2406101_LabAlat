@@ -1,0 +1,5 @@
+Sistem Informasi Akademik (SIA) digunakan untuk membantu kegiatan akademik mahasiswa dan dosen. Mahasiswa dan dosen merupakan bagian dari Civitas Akademika yang dapat melihat kalender akademik. Setelah masa perkuliahan berakhir, dosen dapat menginput nilai mata kuliah yang diampunya. Mahasiswa dapat melihat Kartu Hasil Studi (KHS) untuk semester yang nilainya sudah dipublikasikan.
+
+Selain itu, Admin Akademik bertugas mengelola data mahasiswa, meliputi penambahan data mahasiswa baru, perubahan data mahasiswa, dan penghapusan data mahasiswa yang memenuhi ketentuan. Sistem ini melanjutkan fungsi yang telah dibuat pada pertemuan sebelumnya, yaitu melihat jadwal kuliah, mengelola jadwal kuliah, mengajukan KRS, memvalidasi KRS, mengunduh bukti pengajuan KRS, dan memproses keputusan KRS.
+
+Dalam pemodelan sistem, Mahasiswa dan Dosen merupakan aktor khusus dari Civitas Akademika. Pengelolaan data mahasiswa memiliki satu use case umum dengan tiga use case khusus, yaitu Tambah Data Mahasiswa, Ubah Data Mahasiswa, dan Hapus Data Mahasiswa. Use case Input Nilai Mata Kuliah dan Lihat KHS masing-masing direalisasikan oleh collaboration yang sesuai.
